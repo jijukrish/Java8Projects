@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 public class FilteringApples {
 	public static void main(String ... args){
 		List<Apple> inventory =Arrays.asList(new Apple(80,"green"),
-				new Apple(155,"green"),new Apple(120,"Red"));
+				new Apple(155,"Orange"),new Apple(120,"Red"));
 	
 
 List<Apple> greenApples = filterApples(inventory, FilteringApples::isGreenApple);
