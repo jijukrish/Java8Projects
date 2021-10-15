@@ -1,0 +1,21 @@
+Create a sample java projects
+mvn archetype:generate -DgroupId=com.bestonjava -DartifactId=CubeGenerator   
+-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+Onnce project created add required java classes and junit tests
+Compile the code using
+cd CubeGenerator
+mvn clean compile 
+From class dir run
+java com.bestonjava.App 
+The mvn package command completes the build life cycle of the maven project such as:
+
+validate
+compile
+test
+package
+integration-test
+verify
+install
+deploy
+Visit this link to know more about build life cycle http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
